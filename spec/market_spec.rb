@@ -55,29 +55,11 @@ RSpec.describe Market do
       expect(market.vendors_that_sell(item1)).to eq([vendor1, vendor3])
       expect(market.vendors_that_sell(item2)).to eq([vendor1])
       expect(market.vendors_that_sell(item3)).to eq([vendor2])
+      expect(market.vendors_that_sell(item4)).to eq([vendor2])
     end
-
   end
 end
 
 
-
-
-
-
-# pry(main)> market.vendors_that_sell(item1)
-# #=> [#<Vendor:0x00007fe1348a1160...>, #<Vendor:0x00007fe134910650...>]
-
-# pry(main)> market.vendors_that_sell(item4)
-# #=> [#<Vendor:0x00007fe1349bed40...>]
-
-# pry(main)> vendor1.potential_revenue
-# #=> 29.75
-
-# pry(main)> vendor2.potential_revenue
-# #=> 345.00
-
-# pry(main)> vendor3.potential_revenue
-# #=> 48.75  
 
 
