@@ -56,27 +56,3 @@ end
 
 
 
-# potential_revenue - the sum of all their items' price * quantity.
-
-# pry(main)> vendor1.potential_revenue
-# #=> 29.75
-
-# pry(main)> vendor2.potential_revenue
-# #=> 345.00
-
-# pry(main)> vendor3.potential_revenue
-# #=> 48.75  
-
-
-
-
-
-
-
-
-
-
-# vendor.stock(item2, 12)
-
-# vendor.inventory
-# #=> {#<Item:0x007f9c56740d48...> => 55, #<Item:0x007f9c565c0ce8...> => 12}
